@@ -1,4 +1,12 @@
 /* Add your class here */
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
 
 .header {
   height: 100vh;
@@ -12,14 +20,21 @@
 }
 
 .nav {
-  /* Add flex properties here */
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }
 
 .logo {
+  width: 196px;
+  height: 60px;
 }
 
 .nav-links {
   margin-top: 8px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
 }
 
 .nav__link {
@@ -29,23 +44,32 @@
 }
 
 /* Add the hover state styles for .nav__link here */
+.nav__link:hover {
+  color: #1f69c9;
+}
 
 .header__title {
   font-size: 66px;
   font-weight: 500;
   line-height: 76px;
   margin: 150px 0 0;
+  max-width: 544px;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
   margin: 32px 0 0;
+  max-width: 465px;
 }
 
 .header__image {
   /* Write styles here */
   z-index: 1;
+  max-width: 636px;
+  position: absolute;
+  top: 135px;
+  right: 20px;
 }
 
 .header__footer {
@@ -66,6 +90,9 @@
 }
 
 /* Add the hover state styles for .header__link here */
+.header__link:hover {
+  color: #1f69c9;
+}
 
 .header__address {
   color: #838383;
@@ -90,15 +117,26 @@
   line-height: 30px;
   font-weight: 400;
   margin: 24px 0 0;
+  bottom: 68px;
 }
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
-
+.staff__cards {
+  max-width: 760px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
 .card {
   background-color: #fff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
+  flex: 0 0 360px;
+  height: 420px;
+  margin-bottom: 40px;
+  margin-right: 40px;
 }
 
 .card__content {
@@ -173,6 +211,8 @@
 
 .event-info__icon_calendar {
   background-image: url(../images/icon_calendar.svg);
+  width: 24px;
+  height: 24px;
 }
 
 .event-info__icon_pin {
@@ -314,6 +354,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
+  max-width: 154px;
 }
 
 .about__content {
