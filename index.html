@@ -71,7 +71,7 @@
                 </p>
               </div>
             </div>
-        
+
             <div class="card">
               <div class="card__content">
                 <h4 class="card__title">
@@ -89,7 +89,7 @@
                 </p>
               </div>
             </div>
-            
+
             <div class="card">
               <div class="card__content">
                 <h4 class="card__title">
@@ -106,7 +106,7 @@
                 <p class="card__footer">Steve McConnell</p>
               </div>
             </div>
-          
+
             <div class="card">
               <div class="card__content">
                 <h4 class="card__title">
@@ -123,7 +123,6 @@
               </div>
             </div>
           </div>
-          </section>
         </section>
 
         <section class="events">
@@ -146,6 +145,7 @@
                 </p>
               </div>
             </div>
+
             <p class="events__description">
               At this event, which celebrates the library's namesake, our guest
               lecturer will take us on a journey exploring some of the most
@@ -158,6 +158,49 @@
             <a href="#" class="events__more">More events &rarr;</a>
           </div>
           <!-- Start creating the composition here -->
+          <div class="events__cover">
+            <img src="./images/cafe.png" alt="cafe" class="events__image" />
+            <div class="person person_name_feynman">
+              <p class="person__caption">Joan Feynman</p>
+              <img
+                src="./images/person_feynman.png"
+                alt="feynman"
+                class="person__image person__image_size_l"
+              />
+            </div>
+            <div class="person person_name_burbidge">
+              <p class="person_caption">Margaret Burbidge</p>
+              <img
+                src="./images/person_burbidge.png"
+                alt="burbidge"
+                class="person__image person__image_size_m"
+              />
+            </div>
+            <div class="person person_name_cannon">
+              <img
+                src="./images/person_cannon.png"
+                alt="cannon"
+                class="person__image person__image_size_m"
+              />
+              <p class="person_caption">Annie Jump Cannon</p>
+            </div>
+            <div class="person person_name_mitchell">
+              <img
+                src="./images/person_mitchell.png"
+                alt="mitchell"
+                class="person__image person__image_size_s"
+              />
+              <p class="person_caption">Maria Mitchell</p>
+            </div>
+            <div class="person person_name_tarter">
+              <p class="person__caption">Jill Tarter</p>
+              <img
+                src="./images/person_tarter.png"
+                alt="tarter"
+                class="person__image person__image_size_m"
+              />
+            </div>
+          </div>
         </section>
 
         <section class="membership">
@@ -244,11 +287,54 @@
               the American Geophysical Union.
             </p>
           </div>
-          <!-- <div class="about__circle"></div> -->
+          <div class="about__circle"></div>
         </section>
       </div>
       <footer id="footer" class="footer">
-        <!-- The time to mark up the footer has come, you can do it 💪 -->
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo_white.png"
+              alt="Practicum logo"
+              class="footer__logo"
+            />
+          </div>
+
+          <div class="footer__column footer__column_hours">
+            <h4 class="footer__column-heading">Hours</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9am - 8pm</li>
+              <li class="footer__list-item">Weekends: 10am - 6pm</li>
+            </ul>
+          </div>
+
+          <div class="footer__column footer__column_social">
+            <h4 class="footer__column-heading">Social media</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item"></li>
+              <li class="footer__column-link">
+                <a href="#"
+                  ><img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook icon"
+                    class="footer__social-icon"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item"></li>
+              <li class="footer__column-link">
+                <a href="#">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram icon"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyrights">&copy; 2022 Alexander Stanford</p>
       </footer>
     </div>
   </body>
