@@ -401,18 +401,16 @@
   background-color: #1f1f1f;
   color: #fff;
   padding: 57px 102px 60px 80px;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .footer__columns {
   display: flex;
-  margin-right: auto;
 }
 
 .footer__column_hours {
   list-style: none;
   margin-right: 100px;
+  margin-left: auto;
 }
 
 .footer__column_social {
@@ -453,6 +451,5 @@
 
 .footer__copyrights {
   margin-top: auto;
-  margin-bottom: 60px;
-  margin-left: auto;
+  margin-bottom: 0;
 }
